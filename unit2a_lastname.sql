@@ -79,7 +79,9 @@ Charlotte Hornets	Charlotte	North Carolina
 
 
 -- 3. Show the full name and city of every team in Ohio.
-Cleveland Cavaliers	Cleveland
+SELECT  full_name, city
+FROM    teams
+WHERE   state = 'Ohio';
 
 
 -- 4. Show the full name and founding year of teams founded before 1950.
